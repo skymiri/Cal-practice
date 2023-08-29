@@ -1,0 +1,25 @@
+h1 {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+input {
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    height: 40px;
+}
+
+input ::placeholder {
+    align-items: center;
+}
+
+#btn {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+}

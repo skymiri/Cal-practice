@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="calculator" href="cal.js" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="cal2.js"></script>
+    <title>사칙연산 계산기</title>
+  </head>
+  <body>
+    <header>
+      <h1>사칙연산 계산기.</h1>
+    </header>
+
+    <div id="cal">
+      <!-- <label for="사칙연산 계산기">사칙연산 계산기</label> -->
+      <input
+        id="inputBox"
+        type="text"
+        placeholder="수식을 입력하세요 (예: 3 + 5)"
+      />
+      <button type="submit" id="btn">입력</button>
+    </div>
+    <footer id="footer">
+      <p id="result">결과:</p>
+      <p id="error">에러:</p>
+    </footer>
+  </body>
+</html>
